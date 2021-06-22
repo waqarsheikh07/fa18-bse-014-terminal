@@ -42,10 +42,13 @@ app.use(function (err, req, res, next) {
 });
 
 mongoose
-  .connect("mongodb+srv://admin:admin@terminal.qtpsg.mongodb.net/Terminal", {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
+  .connect(
+    "mongodb+srv://waqarsafi:papajani@fa18-bse-014-terminal.9zbqm.mongodb.net/fa18-bse-014-terminal",
+    {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    }
+  )
   .then(() => console.log("Connected to Mongo...."))
   .catch((error) => console.log(error.message));
 module.exports = app;
