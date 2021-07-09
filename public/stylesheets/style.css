@@ -61,7 +61,7 @@ h1 {
   transform: translateY(2px);
 }
 .checked {
-  color: yellow !important;
+  color: gold !important;
   margin-left: 2px;
 }
 .table td,
