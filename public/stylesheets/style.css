@@ -53,7 +53,8 @@ h1 {
   transition: opacity 0.3s;
 }
 .nav-item:hover,
-.btn:hover {
+.btn:hover,
+.checked:hover {
   opacity: 0.5;
 }
 .btn:active {
