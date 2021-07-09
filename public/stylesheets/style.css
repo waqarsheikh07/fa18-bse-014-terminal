@@ -4,12 +4,14 @@ body {
 }
 
 .navbar {
-  background-color: lightgrey !important;
+  background-color: #000 !important;
   padding: 20px;
+  color: #fff;
 }
 
 h1 {
-  margin-left: 450px;
+  margin: 20px auto;
+  font-weight: 900;
 }
 
 .table {
@@ -17,11 +19,11 @@ h1 {
 }
 
 .table thead {
-  background-color: lightblue !important;
+  background-color: #5600e3 !important;
 }
 
 .table thead tr th {
-  color: blue !important;
+  color: #fff !important;
 }
 
 .heading {
@@ -29,13 +31,23 @@ h1 {
 }
 
 .checked {
-  color: blue !important;
+  color: #fff !important;
   margin-left: 2px;
 }
 
 .btn {
   background-color: lightblue !important;
-  color: blue !important;
-  border: 2px solid blue !important;
+  color: #fff !important;
+  border-radius: 20%;
   margin-right: 30px;
+  margin-top: 20px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+}
+
+.nav-item:hover {
+  opacity: 0.5;
+  margin-left: 10px;
 }
