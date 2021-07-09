@@ -70,3 +70,6 @@ h1 {
   vertical-align: top;
   border-top: 1px solid #000000;
 }
+.table td {
+  background-color: rgba(86, 0, 227.3);
+}
