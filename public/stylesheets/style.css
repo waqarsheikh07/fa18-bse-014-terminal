@@ -15,7 +15,9 @@ h1 {
   font-weight: 900;
   text-align: center;
 }
-
+.btn-info {
+  width: 200px;
+}
 .table {
   margin-top: 100px;
 }
