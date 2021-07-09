@@ -1,35 +1,41 @@
 body {
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 35px;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .navbar {
+  background-color: lightgrey !important;
   padding: 20px;
-  width: 100%;
-  background-color: #e27d60 !important;
 }
 
-.nav-item > a {
-  color: white;
-  margin-right: 30px;
-  letter-spacing: 1px;
-  font-size: 13px;
+h1 {
+  margin-left: 450px;
+}
+
+.table {
+  margin-top: 100px;
+}
+
+.table thead {
+  background-color: lightblue !important;
+}
+
+.table thead tr th {
+  color: blue !important;
 }
 
 .heading {
-  margin: 80px;
-}
-
-.main {
-  margin: 80px;
-}
-
-.btn {
-  padding: 0.3em 1.3em;
-  background-color: #e27d60 !important;
-  color: white !important;
-  margin-right: 10px;
+  padding-left: 300px;
 }
 
 .checked {
-  color: yellowgreen;
+  color: blue !important;
+  margin-left: 2px;
+}
+
+.btn {
+  background-color: lightblue !important;
+  color: blue !important;
+  border: 2px solid blue !important;
+  margin-right: 30px;
 }
