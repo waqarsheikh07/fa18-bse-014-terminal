@@ -10,7 +10,8 @@ body {
 }
 
 h1 {
-  margin: 20px 45%;
+  margin-top: 20px;
+  margin-left: 60%;
   font-weight: 900;
   text-align: center;
 }
